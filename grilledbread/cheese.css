@@ -58,6 +58,13 @@ main {
     border: 2px solid white;
 }
 
+#indexmain {
+    background-color: #9baebc;
+    padding: 20px;
+    width: 65%;
+    border: 2px solid white;
+}
+
 p {
     text-align: left;
     color: black;
@@ -92,11 +99,9 @@ caption {
 }
 
 thead {
-    border-bottom: 3px solid #374955;
-    padding: 5px;
+    border-bottom: 5px solid #374955;
     font-weight: bold;
     text-decoration: underline #392a33;
-    margin: 10px;
     color: black;
     background-color: #3d887e;
 
@@ -104,7 +109,7 @@ thead {
 
 table {
     border-collapse: collapse;
-    padding: 30px;
+    padding: 10px;
     font-style: italic;
     text-align: center;
     background-color: #f5e9f0;
@@ -120,7 +125,7 @@ footer {
     color: azure;
     border: 2px solid white;
     margin: 10px;
-    padding: 5px;
+    padding: 6px;
     text-align: center;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -131,4 +136,25 @@ footer {
     font-size: small;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right-note {
+    width: 30%;
+    font-size: medium;
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #9baebc;
+    border: 2px solid white;
+}
+
+li {
+    padding: 5px;
 }
